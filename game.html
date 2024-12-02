@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quarks Casino - Dice Roll Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Quarks Casino</h1>
+    <p>Roll the dice and see if you can win!</p>
+    
+    <!-- Button to trigger the game -->
+    <button onclick="playGame()">Roll the Dice!</button>
+    
+    <!-- Div where the result will be displayed -->
+    <div class="result" id="result"></div>
+
+    <!-- Linking to the external JavaScript file -->
+    <script src="code.js"></script>
+</body>
+</html>
